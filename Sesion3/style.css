@@ -1,0 +1,28 @@
+#container {
+    width: 450px;
+    height: 800px;
+    background-color: darkorange;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.item {
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+ 
+
+
+

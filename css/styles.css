@@ -1,0 +1,18 @@
+/* Crear variable en Sass */
+body {
+  color: #c4aeae;
+  background-color: #efefef;
+}
+
+nav {
+  border: 2px solid #c4aeae;
+  width: 100%;
+  margin: 45px 200px 20px 100px;
+}
+
+a:hover {
+  color: #c4aeae;
+}
+
+/* Regla de disenio, una pagina no puede tener mas de 3 fonts */
+/*# sourceMappingURL=styles.css.map */

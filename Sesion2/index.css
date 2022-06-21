@@ -1,0 +1,96 @@
+/* Los selectores se pueden combinar */
+/*  Selector universal para resetear los estilos por defecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: "Roboto";
+}
+
+header {
+    border: 1px solid green;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    background-color: blue;
+    padding: 0 16px;
+}
+
+footer {
+    border: blue;
+}
+
+
+header, footer, #pagina {
+    width: 90%;
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 20px auto;
+
+}
+
+#pagina {
+    height: 300px;
+    border: 1px solid blue;
+}
+
+/* Estlizar logo y nav */ 
+.logo {
+    width: 50px;
+}
+
+header nav {
+    background-color: #528df5;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+
+}
+
+/*header nav ul li {
+    float: left;
+    
+}*/
+
+.navlink a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    height: 100%;
+}
+
+.main .articles {
+    background-color: white;
+    padding: 20px;
+    float: left;
+    margin-right: 1.5%;
+    width: 70%;
+} 
+
+.sidebar {
+    width: 28%;
+    border: 1px solid purple;
+    float: right;
+}

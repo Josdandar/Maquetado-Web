@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Aside Izquierdo */
+.divlogo {
+  margin: 10px;
+}
+
+.navgrid .col .homediv {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.botonAside {
+  border-radius: 10%;
+  width: 60%;
+  /* height: 100%; */
+}
+
+.linavgrid {
+  margin: 12px;
+}
+
+.alinavgrid {
+  text-decoration: none;
+  color: black;
+}
+
+.calamardoPic {
+  border-radius: 50% !important;
+}
+/*# sourceMappingURL=index.css.map */

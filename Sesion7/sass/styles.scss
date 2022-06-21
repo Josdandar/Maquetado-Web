@@ -1,0 +1,23 @@
+/* Crear variable en Sass */ 
+$colorRojo: rgb(196, 174, 174);
+$colorBGBody: #efefef;
+$marginContainer: 45px 200px 20px 100px;
+$fuentePrincipal: sans-serif;
+$fuenteSecundaria: arial;
+
+body {
+    color: $colorRojo;
+    background-color: $colorBGBody;
+}
+
+nav {
+    border: 2px solid $colorRojo; // manda a llamar a la variable // 
+    width: 100%;
+    margin: $marginContainer;
+}
+
+a:hover {
+    color: $colorRojo;
+}
+
+/* Regla de disenio, una pagina no puede tener mas de 3 fonts */ 
